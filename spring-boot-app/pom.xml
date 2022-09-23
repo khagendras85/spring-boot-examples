@@ -42,6 +42,12 @@
 			<artifactId>xxxx-web-client-spring-boot-starter</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
+		<dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-slf4j</artifactId>
+            <version>11.2</version>
+        </dependency>
 
 	</dependencies>
 

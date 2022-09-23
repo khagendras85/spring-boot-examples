@@ -11,6 +11,6 @@ import reactor.core.publisher.Mono;
 public interface IApiProxy {
 	
 	@GetMapping("/collections")
-    Mono<List<Book>> greeting();
+    Mono<List<Book>> fetchBooks();
 
 }
